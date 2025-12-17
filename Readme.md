@@ -1,4 +1,3 @@
-# From Paper To Pixel: Experimental Framework for Acces to Historical Spanish Documents
 # From Paper To Pixel: Experimental Framework for Access to Historical Spanish Documents
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
@@ -479,4 +478,5 @@ For questions, issues, or suggestions regarding this project, you can reach out 
 
 - **GitHub:** [jaionemacicior](https://github.com/jaionemacicior)
 - **Email:** jaione.macicior@unavarra.es
+
 
