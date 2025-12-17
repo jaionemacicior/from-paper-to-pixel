@@ -479,4 +479,9 @@ For questions, issues, or suggestions regarding this project, you can reach out 
 - **GitHub:** [jaionemacicior](https://github.com/jaionemacicior)
 - **Email:** jaione.macicior@unavarra.es
 
+## Related Publications and Data
 
+- **Preprint:** [Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite (arXiv)](https://arxiv.org/abs/2507.04878)  
+- **Corpus:** [Los101 (Zenodo)](https://zenodo.org/records/17902212)  
+
+> Note: The corpus has been used in the experiments described in the preprint, but it is **not required** to run this framework. The environment can be used with any corpus exported from Transkribus.
