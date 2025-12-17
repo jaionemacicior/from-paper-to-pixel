@@ -1,4 +1,12 @@
 # From Paper To Pixel: Experimental Framework for Acces to Historical Spanish Documents
+# From Paper To Pixel: Experimental Framework for Access to Historical Spanish Documents
+
+[![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org/)
+[![YOLO](https://img.shields.io/badge/YOLO-Ultralytics-brightgreen.svg)](https://docs.ultralytics.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 ## A flexible experimentation framework for testing OCR and layout models, handling all phases—from exporting and preparing data, to model training, inference, evaluation, and visualization—designed to be user-friendly and applicable to any Transkribus-exported corpus.
 From Paper To Pixel is a comprehensive and user-friendly experimental environment designed for performing systematic experiments with OCR and document layout analysis models. The framework supports all stages of the workflow, including dataset export from Transkribus, data preparation, model-specific dataset creation, model training, inference, automatic evaluation, and visualization of results. It is designed to be flexible, allowing researchers and practitioners to easily adapt the pipeline to any corpus exported from Transkribus, and to compare the performance of multiple OCR and layout models in a reproducible and structured manner. The framework aims to streamline experimentation while maintaining full transparency and traceability of each stage, making it suitable for both research purposes and practical applications on historical Spanish documents.
 
@@ -471,3 +479,4 @@ For questions, issues, or suggestions regarding this project, you can reach out 
 
 - **GitHub:** [jaionemacicior](https://github.com/jaionemacicior)
 - **Email:** jaione.macicior@unavarra.es
+
