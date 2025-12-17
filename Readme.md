@@ -1,4 +1,16 @@
 # From Paper To Pixel: Experimental Framework for Acces to Historical Spanish Documents
+## A flexible experimentation framework for testing OCR and layout models, handling all phases—from exporting and preparing data, to model training, inference, evaluation, and visualization—designed to be user-friendly and applicable to any Transkribus-exported corpus.
+From Paper To Pixel is a comprehensive and user-friendly experimental environment designed for performing systematic experiments with OCR and document layout analysis models. The framework supports all stages of the workflow, including dataset export from Transkribus, data preparation, model-specific dataset creation, model training, inference, automatic evaluation, and visualization of results. It is designed to be flexible, allowing researchers and practitioners to easily adapt the pipeline to any corpus exported from Transkribus, and to compare the performance of multiple OCR and layout models in a reproducible and structured manner. The framework aims to streamline experimentation while maintaining full transparency and traceability of each stage, making it suitable for both research purposes and practical applications on historical Spanish documents.
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Hardware and Software](#hardware-and-software-used)
+3. [Stage 1: Data Preparation](#stage-1-data-preparation)
+4. [Stage 2: Fine-tuning Models](#stage-2-fine-tuning-the-models)
+5. [Stage 3: Evaluation](#stage-3-evaluation)
+6. [Stage 4: Evaluation Analysis](#stage-4-evaluation-analysis)
+7. [Stage 5: Analyze Best and Worst Predictions](#stage-5-analyze-best-and-worst-predictions)
+
 
 ## Project Overview
 
@@ -448,4 +460,14 @@ data/<CORPUS_NAME>/<split>/images/
 ```
 
 * Users can modify `top_n` to inspect more or fewer pages.
+
 * Useful for quickly spotting **systematic errors** and **edge cases** in OCR or layout models.
+
+
+
+## Contact / Support
+
+For questions, issues, or suggestions regarding this project, you can reach out to:
+
+- **GitHub:** [jaionemacicior](https://github.com/jaionemacicior)
+- **Email:** jaione.macicior@unavarra.es
