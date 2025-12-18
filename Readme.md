@@ -1,4 +1,29 @@
-# From Paper To Pixel: Experimental Framework for Acces to Historical Spanish Documents
+# From Paper To Pixel: Experimental Framework for Access to Historical Spanish Documents
+
+[![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org/)
+[![YOLO](https://img.shields.io/badge/YOLO-Ultralytics-brightgreen.svg)](https://docs.ultralytics.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+A flexible experimentation framework for testing OCR and document layout models on historical documents, handling all phases—from exporting and preparing data, to model training, inference, evaluation, and visualization—and designed to be reusable with any corpus exported from Transkribus.
+
+## Purpose and Context
+
+This project is designed to support research and experimentation on historical Spanish documents, with the goal of improving access to their content through OCR and document layout analysis. Historical documents pose specific challenges for automatic processing due to handwriting variability, page degradation, and complex layouts, which makes systematic experimentation and evaluation essential.
+
+The framework operates on data exported from Transkribus and relies on the PAGE XML format, a widely used standard for representing document structure, textual content, and layout annotations. In this context, *layout information* refers to the spatial and structural description of documents, including text and non-text regions, their bounding boxes (page coordinates), and reading order.
+
+The processed data and experimental pipeline are model-agnostic and can be used to train and evaluate both OCR models (such as Tesseract, TrOCR, or Granite) and document layout or document understanding models (such as YOLO-based approaches). By providing a unified and reproducible workflow, the project facilitates comparison across models and encourages reuse of both the data and the experimental setup in other research contexts.
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Hardware and Software](#hardware-and-software-used)
+3. [Stage 1: Data Preparation](#stage-1-data-preparation)
+4. [Stage 2: Fine-tuning Models](#stage-2-fine-tuning-the-models)
+5. [Stage 3: Evaluation](#stage-3-evaluation)
+6. [Stage 4: Evaluation Analysis](#stage-4-evaluation-analysis)
+7. [Stage 5: Analyze Best and Worst Predictions](#stage-5-analyze-best-and-worst-predictions)
+
 
 ## Project Overview
 
@@ -448,4 +473,22 @@ data/<CORPUS_NAME>/<split>/images/
 ```
 
 * Users can modify `top_n` to inspect more or fewer pages.
+
 * Useful for quickly spotting **systematic errors** and **edge cases** in OCR or layout models.
+
+
+
+## Contact / Support
+
+For questions, issues, or suggestions regarding this project, you can reach out to:
+
+- **GitHub:** [jaionemacicior](https://github.com/jaionemacicior)
+- **Email:** jaione.macicior@unavarra.es
+
+## Related Publications and Data
+
+- **Preprint:** [Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite (arXiv)](https://arxiv.org/abs/2507.04878)  
+- **Corpus:** [Los101 (Zenodo)](https://zenodo.org/records/17902212). 
+
+> Note: The corpus has been used in the experiments described in the preprint, but it is **not required** to run this framework. The environment can be used with any corpus exported from Transkribus.
+
