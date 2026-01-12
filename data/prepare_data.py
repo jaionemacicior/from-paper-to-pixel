@@ -21,14 +21,14 @@ args = parser.parse_args()
 CORPUS_NAME = args.corpus
 
 # Run pipeline
-print("\033[1m[STEP 1] Preparing raw data...\033[0m")
+print("\n\033[1m[STEP 1] Preparing raw data...\033[0m")
 organize_raw_data(CORPUS_NAME)
 
-print("\033[1m[STEP 2] Parsing PAGE-XML files...\033[0m")
+print("\n\033[1m[STEP 2] Parsing PAGE-XML files...\033[0m")
 parse_xml_files(CORPUS_NAME)
 
-print("\033[1m[STEP 3] Creating dataset splits...\033[0m")
+print("\n\033[1m[STEP 3] Creating dataset splits...\033[0m")
 splits = make_splits(CORPUS_NAME)
 organize_splits(CORPUS_NAME, splits)
 
-print("\033[1m[DONE] Data preparation pipeline completed successfully!\033[0m")
+print("\n\033[1m[DONE] Data preparation pipeline completed successfully!\033[0m")

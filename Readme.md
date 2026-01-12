@@ -139,8 +139,9 @@ Or permanently (so you don’t have to run it every time):
 ## STAGE 1: Data Preparation
 **Usage** The full data preparation pipeline is handled by a single script: [prepare_data.py](prepare_data.py). To run it, these steps are required:
 
-1. Download the data from Transkribus and save the .zip file in data. Then, unzip it in `data/<CORPUS_NAME>/raw_data`, where `<CORPUS_NAME>` is the corpus' name that the user chooses. To do that, run this command line from the source root:
-
+1. Download the data from Transkribus using these settings:
+![Export settings in Transkribus](images/export.png)
+After downloading the .zip file, save it in the folder `data`. Then, unzip it in `data/<CORPUS_NAME>/raw_data`, where `<CORPUS_NAME>` is the corpus' name that the user chooses. To do that, run this command line from the source root:
 ``` 
 unzip data/<ZIP_FILE_NAME>.zip -d data/<CORPUS_NAME>/raw_data
 ```
