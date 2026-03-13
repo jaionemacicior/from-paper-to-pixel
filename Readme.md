@@ -488,8 +488,10 @@ For questions, issues, or suggestions regarding this project, you can reach out 
 
 ## Related Publications and Data
 
+-**Masther's Thesis** [Del papel al pixel: experimentos para la digitalización de documentos históricos españoles](https://hdl.handle.net/20.500.14468/32013)
 - **Preprint:** [Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite (arXiv)](https://arxiv.org/abs/2507.04878)  
 - **Corpus:** [Los101 (Zenodo)](https://zenodo.org/records/17902212). 
 
 > Note: The corpus has been used in the experiments described in the preprint, but it is **not required** to run this framework. The environment can be used with any corpus exported from Transkribus.
+
 
