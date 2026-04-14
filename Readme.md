@@ -488,7 +488,7 @@ For questions, issues, or suggestions regarding this project, you can reach out 
 
 ## Related Publications and Data
 - **arXiv Preprint (July, 2025):** [Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite (arXiv)](https://arxiv.org/abs/2507.04878)
-- **PastReader2026 Workshop Paper (September, 2025)**[Transcribing History with Tesseract: A Monomodal OCR Approach in the PastReader 2025 Shared Task](https://ceur-ws.org/Vol-4098/PastReader2025_paper2.pdf)
+- **PastReader2025 Workshop Paper (September, 2025)**[Transcribing History with Tesseract: A Monomodal OCR Approach in the PastReader 2025 Shared Task](https://ceur-ws.org/Vol-4098/PastReader2025_paper2.pdf)
 - **Masther's Thesis (October, 2025)** [Del papel al pixel: experimentos para la digitalización de documentos históricos españoles](https://hdl.handle.net/20.500.14468/32013)
 - **HDH2025 Conference Contribution (October, 2025):** [Transcripción de textos históricos en español con diferentes fuentes y formatos (Análisis y comparación de resultados con tres enfoques basados en IA)](https://doi.org/10.7203/PUV-OA-9788491338307)
 - **Corpus _los101_ (December, 2025):** [Los101 (Zenodo)](https://zenodo.org/records/17902212).
