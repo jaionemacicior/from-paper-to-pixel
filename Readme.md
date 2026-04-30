@@ -488,12 +488,12 @@ For questions, issues, or suggestions regarding this project, you can reach out 
 
 ## Related Publications and Data
 - **arXiv Preprint (July, 2025):** [Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite (arXiv)](https://arxiv.org/abs/2507.04878)
-- **PastReader2025 Workshop Paper (September, 2025)**[Transcribing History with Tesseract: A Monomodal OCR Approach in the PastReader 2025 Shared Task](https://ceur-ws.org/Vol-4098/PastReader2025_paper2.pdf)
+- **PastReader2025 Workshop Paper (September, 2025):** [Transcribing History with Tesseract: A Monomodal OCR Approach in the PastReader 2025 Shared Task](https://ceur-ws.org/Vol-4098/PastReader2025_paper2.pdf)
 - **Masther's Thesis (October, 2025)** [Del papel al pixel: experimentos para la digitalización de documentos históricos españoles](https://hdl.handle.net/20.500.14468/32013)
 - **HDH2025 Conference Contribution (October, 2025):** [Transcripción de textos históricos en español con diferentes fuentes y formatos (Análisis y comparación de resultados con tres enfoques basados en IA)](https://doi.org/10.7203/PUV-OA-9788491338307)
 - **Corpus _los101_ (December, 2025):** [Los101 (Zenodo)](https://zenodo.org/records/17902212).
 - **Transcription Guide (March, 2026):** [Guía de transcripción y anotación para prensa histórica (Zenodo)](https://zenodo.org/records/19187624)
-- **PressMint2026 Workshop Paper (May 2026) - accepted:**  Data Matters: Looking for High-Quality Corpora to Build Robust and Reliable Models for Humanists
+- **PressMint2026 Workshop Paper (May 2026) - accepted:**  [Data Matters: Looking for High-Quality Corpora to Build Robust and Reliable Models for Humanists](https://www.clarin.eu/PressMint-LREC2026)
 
 > Note: The corpus _los101_ has been used in the experiments described in the arXivpreprint, but it is **not required** to run this framework. The environment can be used with any corpus exported from Transkribus.
 
