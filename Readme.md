@@ -1,5 +1,4 @@
 # From Paper To Pixel: Experimental Framework for Access to Historical Spanish Documents
-...
 
 ## Author
 
