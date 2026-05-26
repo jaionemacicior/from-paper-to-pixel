@@ -1,4 +1,10 @@
 # From Paper To Pixel: Experimental Framework for Access to Historical Spanish Documents
+...
+
+## Author
+
+Jaione Macicior-Mitxelena
+
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org/)
