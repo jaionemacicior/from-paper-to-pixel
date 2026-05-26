@@ -6,9 +6,7 @@
 [![YOLO](https://img.shields.io/badge/YOLO-Ultralytics-brightgreen.svg)](https://docs.ultralytics.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Author
-
-Jaione Macicior-Mitxelena
+## Jaione Macicior-Mitxelena
 
 
 A flexible experimentation framework for testing OCR and document layout models on historical documents, handling all phases—from exporting and preparing data, to model training, inference, evaluation, and visualization—and designed to be reusable with any corpus exported from Transkribus.
