@@ -1,5 +1,8 @@
 """
-Del Papel Al Pixel - Full Data Preparation Pipeline
+From Paper To Pixel: Experimental framework for OCR and document layout analysis
+Author: Jaione Macicior-Mitxelena
+License: MIT
+Repository: https://github.com/jaionemacicior/from-paper-to-pixel
 ---------------------------------------------------
 
 This script runs the complete pipeline:
@@ -8,6 +11,7 @@ This script runs the complete pipeline:
 2. Parse PAGE-XML files to generate .box files, YOLO labels, and JSON metadata
 3. Create train/validation/test splits and organize files
 """
+
 from data_utils.organize_transkribus_data import organize_raw_data
 from data_utils.parse_pagexml import parse_xml_files
 from data_utils.create_splits import make_splits, organize_splits

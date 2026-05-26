@@ -1,5 +1,11 @@
 #!/bin/bash
-# eval_all.sh - Interactive evaluation launcher (dynamic models)
+#
+# From Paper To Pixel: Experimental framework for OCR and document layout analysis
+# Interactive evaluation launcher
+#
+# Author: Jaione Macicior-Mitxelena
+# License: MIT
+
 
 # ==============================================
 # COLORS

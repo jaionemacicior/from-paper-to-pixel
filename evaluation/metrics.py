@@ -1,3 +1,11 @@
+'''
+From Paper To Pixel: Experimental framework for OCR and document layout analysis
+Author: Jaione Macicior-Mitxelena
+License: MIT
+Repository: https://github.com/jaionemacicior/from-paper-to-pixel
+'''
+
+
 import editdistance
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge_score import rouge_scorer

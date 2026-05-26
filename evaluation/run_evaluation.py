@@ -1,3 +1,11 @@
+'''
+From Paper To Pixel: Experimental framework for OCR and document layout analysis
+Author: Jaione Macicior-Mitxelena
+License: MIT
+Repository: https://github.com/jaionemacicior/from-paper-to-pixel
+'''
+
+
 import argparse
 from evaluation.evaluator import predict_on_dataset
 import os

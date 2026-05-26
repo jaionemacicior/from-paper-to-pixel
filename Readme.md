@@ -11,9 +11,34 @@
 
 A flexible experimentation framework for testing OCR and document layout models on historical documents, handling all phases—from exporting and preparing data, to model training, inference, evaluation, and visualization—and designed to be reusable with any corpus exported from Transkribus.
 
+## Quick Start
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/jaionemacicior/from-paper-to-pixel.git
+cd from-paper-to-pixel
+
+python3.12 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+Prepare a corpus:
+
+```bash
+python prepare_data.py --corpus <CORPUS_NAME>
+```
+
+Run evaluation:
+
+```bash
+bash predict_and_evaluate.sh
+```
+
 ## Purpose and Context
 
-This project is designed to support research and experimentation on historical Spanish documents, with the goal of improving access to their content through OCR and document layout analysis. Historical documents pose specific challenges for automatic processing due to handwriting variability, page degradation, and complex layouts, which makes systematic experimentation and evaluation essential.
+This framework supports research and experimentation on historical Spanish documents, with the goal of improving access to their content through OCR and document layout analysis. Historical documents pose specific challenges for automatic processing due to handwriting variability, page degradation, and complex layouts, which makes systematic experimentation and evaluation essential.
 
 The framework operates on data exported from Transkribus and relies on the PAGE XML format, a widely used standard for representing document structure, textual content, and layout annotations. In this context, *layout information* refers to the spatial and structural description of documents, including text and non-text regions, their bounding boxes (page coordinates), and reading order.
 
@@ -46,13 +71,24 @@ The full workflow is divided into multiple stages:
 * **Stage 4:** Evaluation analysis — visualizes results to compare models.
 * **Stage 5:** Best and worst predictions analysis — inspects extreme cases to understand errors and edge cases.
 
+## Repository Structure
+
+```text
+data/          Dataset preparation and corpus splits
+evaluation/    Evaluation pipeline and metrics
+granite/       Granite OCR models
+trOCR/         TrOCR OCR models
+tesseract/     Tesseract OCR models
+docLayout/     Layout analysis models
+images/        Visualizations and analysis outputs
+```
 ---
 
 ## Hardware and Software Used
 
 ### Hardware Requirements
 
-The experiments for this project were run in the following environment. Compatibility with other configurations has not been tested.
+The experiments for this project were run in the following environment. The framework has been primarily tested in the following environment.
 * **CPU:** 12 physical cores (24 logical cores)
 * **GPU:** NVIDIA RTX PRO 5000 Blackwell
   * GPU count: 1
@@ -295,7 +331,7 @@ To use these models, set the `--input_model` argument as the name of the model, 
 
 ## STAGE 3: Evaluation
 
-After fine-tuning the models, they can be evaluated on the prepared datasets using the automated evaluation scripts provided. The project includes a script [`predict_and_evaluate.sh`](predict_and_evaluate.sh) hat allows interactive evaluation: you can select the corpus, the model families, and the models to evaluate on all splits (`train`, `val`, `test`). 
+After fine-tuning the models, they can be evaluated on the prepared datasets using the automated evaluation scripts provided. The project includes a script [`predict_and_evaluate.sh`](predict_and_evaluate.sh) that allows interactive evaluation: you can select the corpus, the model families, and the models to evaluate on all splits (`train`, `val`, `test`). 
 
 **Usage:**
 Run from the project root:
@@ -373,10 +409,6 @@ python plot_metrics.py --base_path <MODEL_TYPE>/evaluation/<CORPUS>/<SPLIT> --ti
 * The script automatically detects the available metrics from the JSON files.
 * You can generate plots for multiple model types and splits to observe trends and compare performance.
 
-
-Here’s a complete **README section in Markdown** for your “Best and Worst Instances Analysis” script. It explains usage, paths, and how it ties into your evaluation pipeline.
-
----
 
 ## STAGE 5: Analyze Best and Worst Predictions
 
@@ -481,7 +513,19 @@ data/<CORPUS_NAME>/<split>/images/
 
 * Useful for quickly spotting **systematic errors** and **edge cases** in OCR or layout models.
 
+## Citation
 
+If you use this framework in your research, please cite:
+
+```bibtex
+@misc{macicior2026frompapertopixel,
+  author       = {Jaione Macicior-Mitxelena and Ana Garcia-Serrano},
+  title        = {From Paper To Pixel: Experimental Framework for Access to Historical Spanish Documents},
+  year         = {2026},
+  howpublished = {\url{https://github.com/jaionemacicior/from-paper-to-pixel}},
+  note         = {Software repository}
+}
+```
 
 ## Contact / Support
 
