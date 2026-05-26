@@ -1,14 +1,15 @@
 # From Paper To Pixel: Experimental Framework for Access to Historical Spanish Documents
 
-## Author
-
-Jaione Macicior-Mitxelena
-
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org/)
 [![YOLO](https://img.shields.io/badge/YOLO-Ultralytics-brightgreen.svg)](https://docs.ultralytics.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## Author
+
+Jaione Macicior-Mitxelena
+
 
 A flexible experimentation framework for testing OCR and document layout models on historical documents, handling all phases—from exporting and preparing data, to model training, inference, evaluation, and visualization—and designed to be reusable with any corpus exported from Transkribus.
 
